@@ -1,0 +1,13 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Password reset on 127.0.0.1:8089
+From: webmaster@localhost
+To: mca622@rajagiri.edu
+Date: Mon, 06 Mar 2023 05:58:42 -0000
+Message-ID: <167808232281.17028.14114230553000210027@JeslinsPC.bbrouter>
+
+Someone asked for password reset for email mca622@rajagiri.edu.Follow the Link below
+http://127.0.0.1:8089{% url "authapp:password_reset_confirm"
+uidb64=uid token=token %}
+-------------------------------------------------------------------------------
